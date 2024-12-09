@@ -1,0 +1,132 @@
+* {
+    margin: 0%;
+    padding: 0%;
+ }
+ /* body{
+    background-color: rgb(11, 213, 244);
+ } */
+  nav>img{
+    height: 62px;
+    width: 100px;
+  }
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 100px ;
+    align-items: center;
+    background-color: rgb(34, 114, 225);
+    color: beige;
+    height: 65px;
+
+
+}
+nav>h4{
+    font-size: 30px;
+   
+}
+nav>a{
+    color: aliceblue;
+    font-size: large;
+    text-decoration: none;
+}
+.search-container>input{
+    width: 300px;
+    height: 35px;
+    border-radius: 10px 10px;
+    
+}
+nav>button {
+    display: flex;
+    align-items: center; /* Center icon and text vertically */
+    font-size: medium;
+   border-radius: 10px 10px;
+   padding-right: 10px;
+   padding: 10px;
+}
+
+nav>button>i {
+    margin-right: 5px; /* Space between icon and text */
+    color: rgb(36, 36, 219);
+    padding-left: 5px; 
+}
+img{
+    width: 100px;
+    height: 100px;
+    
+}
+img :hover{
+    box-shadow: red;
+}
+.container{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 10px;
+    /* border: 2px; */
+    padding: auto;
+    border-radius: 10px 10px;
+    flex-wrap: nowrap;
+    
+    border: 3px solid rgb(18, 17, 17);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px 10px;
+}
+h4{
+    text-align: center;
+}
+h1{
+   text-align: center;
+}
+/* .items{
+    border: 2px solid #000; 
+    padding: 10px; 
+    margin: 10px; 
+     border-radius: 5px; 
+} */
+ .Mobile{
+    width: 200px;
+    height: 200px;
+ }
+ .parent{
+    padding: 10px;
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+ }
+ .child{
+   width:200px;
+   border: 2px solid black;
+   padding:8px;
+   border-radius: 10px 10px;
+ }
+ .child>p{
+    text-align: justify;
+ }
+ .child>button{
+    padding: 10px 20pxpx;
+    background-color: black;
+    color: rgb(236, 228, 228);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    height: 40px;
+   width: 85px;
+   
+ }
+ .child>button:hover{
+    background-color: rgb(0, 255, 8);
+    box-shadow: 0px 0px 20px rgb(255, 0, 0);
+    color: black;
+ }
+nav>button:hover{
+    background-color: blueviolet;
+    box-shadow: 0px 0px 20px red;
+    color: aqua;
+ }
+.child>h3{
+    text-align: center;
+}
